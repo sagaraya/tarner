@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6D8E46173E7A9B004A2F0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E45173E7A9B004A2F0C /* UIKit.framework */; };
+		1D6D8E48173E7A9B004A2F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E47173E7A9B004A2F0C /* Foundation.framework */; };
+		1D6D8E4A173E7A9B004A2F0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E49173E7A9B004A2F0C /* CoreGraphics.framework */; };
+		1D6D8E50173E7A9B004A2F0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E4E173E7A9B004A2F0C /* InfoPlist.strings */; };
+		1D6D8E52173E7A9B004A2F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E51173E7A9B004A2F0C /* main.m */; };
+		1D6D8E56173E7A9B004A2F0C /* TarnerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E55173E7A9B004A2F0C /* TarnerAppDelegate.m */; };
+		1D6D8E58173E7A9B004A2F0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E57173E7A9B004A2F0C /* Default.png */; };
+		1D6D8E5A173E7A9B004A2F0C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E59173E7A9B004A2F0C /* Default@2x.png */; };
+		1D6D8E5C173E7A9B004A2F0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E5B173E7A9B004A2F0C /* Default-568h@2x.png */; };
+		1D6D8E5F173E7A9B004A2F0C /* TarnerFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E5E173E7A9B004A2F0C /* TarnerFirstViewController.m */; };
+		1D6D8E61173E7A9B004A2F0C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E60173E7A9B004A2F0C /* first.png */; };
+		1D6D8E63173E7A9B004A2F0C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E62173E7A9B004A2F0C /* first@2x.png */; };
+		1D6D8E66173E7A9B004A2F0C /* TarnerSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E65173E7A9B004A2F0C /* TarnerSecondViewController.m */; };
+		1D6D8E68173E7A9B004A2F0C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E67173E7A9B004A2F0C /* second.png */; };
+		1D6D8E6A173E7A9B004A2F0C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E69173E7A9B004A2F0C /* second@2x.png */; };
+		1D6D8E6D173E7A9B004A2F0C /* TarnerFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E6B173E7A9B004A2F0C /* TarnerFirstViewController.xib */; };
+		1D6D8E70173E7A9B004A2F0C /* TarnerSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E6E173E7A9B004A2F0C /* TarnerSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D6D8E42173E7A9B004A2F0C /* Tarner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6D8E45173E7A9B004A2F0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D6D8E47173E7A9B004A2F0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6D8E49173E7A9B004A2F0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6D8E4D173E7A9B004A2F0C /* Tarner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tarner-Info.plist"; sourceTree = "<group>"; };
+		1D6D8E4F173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6D8E51173E7A9B004A2F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D6D8E53173E7A9B004A2F0C /* Tarner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tarner-Prefix.pch"; sourceTree = "<group>"; };
+		1D6D8E54173E7A9B004A2F0C /* TarnerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerAppDelegate.h; sourceTree = "<group>"; };
+		1D6D8E55173E7A9B004A2F0C /* TarnerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerAppDelegate.m; sourceTree = "<group>"; };
+		1D6D8E57173E7A9B004A2F0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D6D8E59173E7A9B004A2F0C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1D6D8E5B173E7A9B004A2F0C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D6D8E5D173E7A9B004A2F0C /* TarnerFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerFirstViewController.h; sourceTree = "<group>"; };
+		1D6D8E5E173E7A9B004A2F0C /* TarnerFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerFirstViewController.m; sourceTree = "<group>"; };
+		1D6D8E60173E7A9B004A2F0C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		1D6D8E62173E7A9B004A2F0C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		1D6D8E64173E7A9B004A2F0C /* TarnerSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerSecondViewController.h; sourceTree = "<group>"; };
+		1D6D8E65173E7A9B004A2F0C /* TarnerSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerSecondViewController.m; sourceTree = "<group>"; };
+		1D6D8E67173E7A9B004A2F0C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		1D6D8E69173E7A9B004A2F0C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		1D6D8E6C173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TarnerFirstViewController.xib; sourceTree = "<group>"; };
+		1D6D8E6F173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TarnerSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6D8E3F173E7A9B004A2F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6D8E46173E7A9B004A2F0C /* UIKit.framework in Frameworks */,
+				1D6D8E48173E7A9B004A2F0C /* Foundation.framework in Frameworks */,
+				1D6D8E4A173E7A9B004A2F0C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6D8E39173E7A9B004A2F0C = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E4B173E7A9B004A2F0C /* Tarner */,
+				1D6D8E44173E7A9B004A2F0C /* Frameworks */,
+				1D6D8E43173E7A9B004A2F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6D8E43173E7A9B004A2F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E42173E7A9B004A2F0C /* Tarner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6D8E44173E7A9B004A2F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E45173E7A9B004A2F0C /* UIKit.framework */,
+				1D6D8E47173E7A9B004A2F0C /* Foundation.framework */,
+				1D6D8E49173E7A9B004A2F0C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D6D8E4B173E7A9B004A2F0C /* Tarner */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E54173E7A9B004A2F0C /* TarnerAppDelegate.h */,
+				1D6D8E55173E7A9B004A2F0C /* TarnerAppDelegate.m */,
+				1D6D8E5D173E7A9B004A2F0C /* TarnerFirstViewController.h */,
+				1D6D8E5E173E7A9B004A2F0C /* TarnerFirstViewController.m */,
+				1D6D8E60173E7A9B004A2F0C /* first.png */,
+				1D6D8E62173E7A9B004A2F0C /* first@2x.png */,
+				1D6D8E64173E7A9B004A2F0C /* TarnerSecondViewController.h */,
+				1D6D8E65173E7A9B004A2F0C /* TarnerSecondViewController.m */,
+				1D6D8E67173E7A9B004A2F0C /* second.png */,
+				1D6D8E69173E7A9B004A2F0C /* second@2x.png */,
+				1D6D8E6B173E7A9B004A2F0C /* TarnerFirstViewController.xib */,
+				1D6D8E6E173E7A9B004A2F0C /* TarnerSecondViewController.xib */,
+				1D6D8E4C173E7A9B004A2F0C /* Supporting Files */,
+			);
+			path = Tarner;
+			sourceTree = "<group>";
+		};
+		1D6D8E4C173E7A9B004A2F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E4D173E7A9B004A2F0C /* Tarner-Info.plist */,
+				1D6D8E4E173E7A9B004A2F0C /* InfoPlist.strings */,
+				1D6D8E51173E7A9B004A2F0C /* main.m */,
+				1D6D8E53173E7A9B004A2F0C /* Tarner-Prefix.pch */,
+				1D6D8E57173E7A9B004A2F0C /* Default.png */,
+				1D6D8E59173E7A9B004A2F0C /* Default@2x.png */,
+				1D6D8E5B173E7A9B004A2F0C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6D8E41173E7A9B004A2F0C /* Tarner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6D8E73173E7A9B004A2F0C /* Build configuration list for PBXNativeTarget "Tarner" */;
+			buildPhases = (
+				1D6D8E3E173E7A9B004A2F0C /* Sources */,
+				1D6D8E3F173E7A9B004A2F0C /* Frameworks */,
+				1D6D8E40173E7A9B004A2F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tarner;
+			productName = Tarner;
+			productReference = 1D6D8E42173E7A9B004A2F0C /* Tarner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6D8E3A173E7A9B004A2F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Tarner;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Keisei SHIGETA";
+			};
+			buildConfigurationList = 1D6D8E3D173E7A9B004A2F0C /* Build configuration list for PBXProject "Tarner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D6D8E39173E7A9B004A2F0C;
+			productRefGroup = 1D6D8E43173E7A9B004A2F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6D8E41173E7A9B004A2F0C /* Tarner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6D8E40173E7A9B004A2F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6D8E50173E7A9B004A2F0C /* InfoPlist.strings in Resources */,
+				1D6D8E58173E7A9B004A2F0C /* Default.png in Resources */,
+				1D6D8E5A173E7A9B004A2F0C /* Default@2x.png in Resources */,
+				1D6D8E5C173E7A9B004A2F0C /* Default-568h@2x.png in Resources */,
+				1D6D8E61173E7A9B004A2F0C /* first.png in Resources */,
+				1D6D8E63173E7A9B004A2F0C /* first@2x.png in Resources */,
+				1D6D8E68173E7A9B004A2F0C /* second.png in Resources */,
+				1D6D8E6A173E7A9B004A2F0C /* second@2x.png in Resources */,
+				1D6D8E6D173E7A9B004A2F0C /* TarnerFirstViewController.xib in Resources */,
+				1D6D8E70173E7A9B004A2F0C /* TarnerSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6D8E3E173E7A9B004A2F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6D8E52173E7A9B004A2F0C /* main.m in Sources */,
+				1D6D8E56173E7A9B004A2F0C /* TarnerAppDelegate.m in Sources */,
+				1D6D8E5F173E7A9B004A2F0C /* TarnerFirstViewController.m in Sources */,
+				1D6D8E66173E7A9B004A2F0C /* TarnerSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D6D8E4E173E7A9B004A2F0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6D8E4F173E7A9B004A2F0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D6D8E6B173E7A9B004A2F0C /* TarnerFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6D8E6C173E7A9B004A2F0C /* en */,
+			);
+			name = TarnerFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		1D6D8E6E173E7A9B004A2F0C /* TarnerSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6D8E6F173E7A9B004A2F0C /* en */,
+			);
+			name = TarnerSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6D8E71173E7A9B004A2F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6D8E72173E7A9B004A2F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6D8E74173E7A9B004A2F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tarner/Tarner-Prefix.pch";
+				INFOPLIST_FILE = "Tarner/Tarner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D6D8E75173E7A9B004A2F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tarner/Tarner-Prefix.pch";
+				INFOPLIST_FILE = "Tarner/Tarner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6D8E3D173E7A9B004A2F0C /* Build configuration list for PBXProject "Tarner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6D8E71173E7A9B004A2F0C /* Debug */,
+				1D6D8E72173E7A9B004A2F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6D8E73173E7A9B004A2F0C /* Build configuration list for PBXNativeTarget "Tarner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6D8E74173E7A9B004A2F0C /* Debug */,
+				1D6D8E75173E7A9B004A2F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6D8E3A173E7A9B004A2F0C /* Project object */;
+}
