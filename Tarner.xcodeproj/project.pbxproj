@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D6D8E46173E7A9B004A2F0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E45173E7A9B004A2F0C /* UIKit.framework */; };
-		1D6D8E48173E7A9B004A2F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E47173E7A9B004A2F0C /* Foundation.framework */; };
 		1D6D8E4A173E7A9B004A2F0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E49173E7A9B004A2F0C /* CoreGraphics.framework */; };
 		1D6D8E50173E7A9B004A2F0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E4E173E7A9B004A2F0C /* InfoPlist.strings */; };
 		1D6D8E52173E7A9B004A2F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E51173E7A9B004A2F0C /* main.m */; };
@@ -16,14 +15,39 @@
 		1D6D8E58173E7A9B004A2F0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E57173E7A9B004A2F0C /* Default.png */; };
 		1D6D8E5A173E7A9B004A2F0C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E59173E7A9B004A2F0C /* Default@2x.png */; };
 		1D6D8E5C173E7A9B004A2F0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E5B173E7A9B004A2F0C /* Default-568h@2x.png */; };
-		1D6D8E5F173E7A9B004A2F0C /* TarnerFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E5E173E7A9B004A2F0C /* TarnerFirstViewController.m */; };
+		1D6D8E5F173E7A9B004A2F0C /* TarnerTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E5E173E7A9B004A2F0C /* TarnerTimelineViewController.m */; };
 		1D6D8E61173E7A9B004A2F0C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E60173E7A9B004A2F0C /* first.png */; };
 		1D6D8E63173E7A9B004A2F0C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E62173E7A9B004A2F0C /* first@2x.png */; };
-		1D6D8E66173E7A9B004A2F0C /* TarnerSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E65173E7A9B004A2F0C /* TarnerSecondViewController.m */; };
+		1D6D8E66173E7A9B004A2F0C /* TarnerMyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E65173E7A9B004A2F0C /* TarnerMyPageViewController.m */; };
 		1D6D8E68173E7A9B004A2F0C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E67173E7A9B004A2F0C /* second.png */; };
 		1D6D8E6A173E7A9B004A2F0C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E69173E7A9B004A2F0C /* second@2x.png */; };
-		1D6D8E6D173E7A9B004A2F0C /* TarnerFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E6B173E7A9B004A2F0C /* TarnerFirstViewController.xib */; };
-		1D6D8E70173E7A9B004A2F0C /* TarnerSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E6E173E7A9B004A2F0C /* TarnerSecondViewController.xib */; };
+		1D6D8E6D173E7A9B004A2F0C /* TarnerTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E6B173E7A9B004A2F0C /* TarnerTimelineViewController.xib */; };
+		1D6D8E70173E7A9B004A2F0C /* TarnerMyPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E6E173E7A9B004A2F0C /* TarnerMyPageViewController.xib */; };
+		1D6D8E79173E7C10004A2F0C /* TarnerPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E77173E7C0F004A2F0C /* TarnerPostViewController.m */; };
+		1D6D8E7A173E7C10004A2F0C /* TarnerPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E78173E7C0F004A2F0C /* TarnerPostViewController.xib */; };
+		1D6D8E7D173E837D004A2F0C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6D8E7C173E837D004A2F0C /* MobileCoreServices.framework */; };
+		1D6D8E81173E8D7F004A2F0C /* TarnerModalPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D8E7F173E8D7F004A2F0C /* TarnerModalPostViewController.m */; };
+		1D6D8E82173E8D7F004A2F0C /* TarnerModalPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E80173E8D7F004A2F0C /* TarnerModalPostViewController.xib */; };
+		1D6D8E84173F3F69004A2F0C /* upload-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E83173F3F68004A2F0C /* upload-photo.png */; };
+		1D6D8E86173F4C27004A2F0C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E85173F4C26004A2F0C /* home.png */; };
+		1D6D8E89173F4E02004A2F0C /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D8E88173F4E02004A2F0C /* user.png */; };
+		1D755D4F17424D4900D3C3E0 /* TarnerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D755D4E17424D4900D3C3E0 /* TarnerUser.m */; };
+		1D755D5117424ECA00D3C3E0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5017424ECA00D3C3E0 /* Parse.framework */; };
+		1D755D5317424EF600D3C3E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5217424EF600D3C3E0 /* AudioToolbox.framework */; };
+		1D755D5517424EFF00D3C3E0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5417424EFF00D3C3E0 /* CFNetwork.framework */; };
+		1D755D5717424F1600D3C3E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5617424F1600D3C3E0 /* CoreLocation.framework */; };
+		1D755D5917424F2200D3C3E0 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5817424F2200D3C3E0 /* libz.1.1.3.dylib */; };
+		1D755D5B17424F3300D3C3E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5A17424F3300D3C3E0 /* QuartzCore.framework */; };
+		1D755D5D17424F3D00D3C3E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5C17424F3D00D3C3E0 /* Security.framework */; };
+		1D755D5F17424F4300D3C3E0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D5E17424F4300D3C3E0 /* StoreKit.framework */; };
+		1D755D6117424F4C00D3C3E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D755D6017424F4C00D3C3E0 /* SystemConfiguration.framework */; };
+		1D755D64174252D000D3C3E0 /* TarnerPhotoUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D755D63174252D000D3C3E0 /* TarnerPhotoUploader.m */; };
+		1D755DA91742575600D3C3E0 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D755DA71742575600D3C3E0 /* 37x-Checkmark.png */; };
+		1D755DAA1742575600D3C3E0 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D755DA81742575600D3C3E0 /* 37x-Checkmark@2x.png */; };
+		1D755DAD1742576600D3C3E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D755DAB1742576600D3C3E0 /* Icon.png */; };
+		1D755DAE1742576600D3C3E0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D755DAC1742576600D3C3E0 /* Icon@2x.png */; };
+		1D755DAF1742590C00D3C3E0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D755DA6174254F400D3C3E0 /* MBProgressHUD.m */; };
+		1D755DB217450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D755DB117450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +64,47 @@
 		1D6D8E57173E7A9B004A2F0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1D6D8E59173E7A9B004A2F0C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D6D8E5B173E7A9B004A2F0C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1D6D8E5D173E7A9B004A2F0C /* TarnerFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerFirstViewController.h; sourceTree = "<group>"; };
-		1D6D8E5E173E7A9B004A2F0C /* TarnerFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerFirstViewController.m; sourceTree = "<group>"; };
+		1D6D8E5D173E7A9B004A2F0C /* TarnerTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerTimelineViewController.h; sourceTree = "<group>"; };
+		1D6D8E5E173E7A9B004A2F0C /* TarnerTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerTimelineViewController.m; sourceTree = "<group>"; };
 		1D6D8E60173E7A9B004A2F0C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		1D6D8E62173E7A9B004A2F0C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		1D6D8E64173E7A9B004A2F0C /* TarnerSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerSecondViewController.h; sourceTree = "<group>"; };
-		1D6D8E65173E7A9B004A2F0C /* TarnerSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerSecondViewController.m; sourceTree = "<group>"; };
+		1D6D8E64173E7A9B004A2F0C /* TarnerMyPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarnerMyPageViewController.h; sourceTree = "<group>"; };
+		1D6D8E65173E7A9B004A2F0C /* TarnerMyPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarnerMyPageViewController.m; sourceTree = "<group>"; };
 		1D6D8E67173E7A9B004A2F0C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		1D6D8E69173E7A9B004A2F0C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		1D6D8E6C173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TarnerFirstViewController.xib; sourceTree = "<group>"; };
-		1D6D8E6F173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TarnerSecondViewController.xib; sourceTree = "<group>"; };
+		1D6D8E6C173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TarnerTimelineViewController.xib; sourceTree = "<group>"; };
+		1D6D8E6F173E7A9B004A2F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TarnerMyPageViewController.xib; sourceTree = "<group>"; };
+		1D6D8E76173E7C0F004A2F0C /* TarnerPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarnerPostViewController.h; sourceTree = "<group>"; };
+		1D6D8E77173E7C0F004A2F0C /* TarnerPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarnerPostViewController.m; sourceTree = "<group>"; };
+		1D6D8E78173E7C0F004A2F0C /* TarnerPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TarnerPostViewController.xib; sourceTree = "<group>"; };
+		1D6D8E7C173E837D004A2F0C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1D6D8E7E173E8D7F004A2F0C /* TarnerModalPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarnerModalPostViewController.h; sourceTree = "<group>"; };
+		1D6D8E7F173E8D7F004A2F0C /* TarnerModalPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarnerModalPostViewController.m; sourceTree = "<group>"; };
+		1D6D8E80173E8D7F004A2F0C /* TarnerModalPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TarnerModalPostViewController.xib; sourceTree = "<group>"; };
+		1D6D8E83173F3F68004A2F0C /* upload-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "upload-photo.png"; path = "../../../../Downloads/glyphish-icons/PNG icons/upload-photo.png"; sourceTree = "<group>"; };
+		1D6D8E85173F4C26004A2F0C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "../../../../Downloads/glyphish-icons/PNG icons/home.png"; sourceTree = "<group>"; };
+		1D6D8E88173F4E02004A2F0C /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		1D755D4D17424D4900D3C3E0 /* TarnerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarnerUser.h; sourceTree = "<group>"; };
+		1D755D4E17424D4900D3C3E0 /* TarnerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarnerUser.m; sourceTree = "<group>"; };
+		1D755D5017424ECA00D3C3E0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1D755D5217424EF600D3C3E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1D755D5417424EFF00D3C3E0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1D755D5617424F1600D3C3E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1D755D5817424F2200D3C3E0 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		1D755D5A17424F3300D3C3E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1D755D5C17424F3D00D3C3E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1D755D5E17424F4300D3C3E0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1D755D6017424F4C00D3C3E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1D755D62174252D000D3C3E0 /* TarnerPhotoUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarnerPhotoUploader.h; sourceTree = "<group>"; };
+		1D755D63174252D000D3C3E0 /* TarnerPhotoUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarnerPhotoUploader.m; sourceTree = "<group>"; };
+		1D755DA5174254F400D3C3E0 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1D755DA6174254F400D3C3E0 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1D755DA71742575600D3C3E0 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		1D755DA81742575600D3C3E0 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		1D755DAB1742576600D3C3E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1D755DAC1742576600D3C3E0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1D755DB017450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarnerPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		1D755DB117450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarnerPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +112,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D755D6117424F4C00D3C3E0 /* SystemConfiguration.framework in Frameworks */,
+				1D755D5F17424F4300D3C3E0 /* StoreKit.framework in Frameworks */,
+				1D755D5D17424F3D00D3C3E0 /* Security.framework in Frameworks */,
+				1D755D5B17424F3300D3C3E0 /* QuartzCore.framework in Frameworks */,
+				1D755D5917424F2200D3C3E0 /* libz.1.1.3.dylib in Frameworks */,
+				1D755D5717424F1600D3C3E0 /* CoreLocation.framework in Frameworks */,
+				1D755D5517424EFF00D3C3E0 /* CFNetwork.framework in Frameworks */,
+				1D755D5317424EF600D3C3E0 /* AudioToolbox.framework in Frameworks */,
+				1D6D8E7D173E837D004A2F0C /* MobileCoreServices.framework in Frameworks */,
 				1D6D8E46173E7A9B004A2F0C /* UIKit.framework in Frameworks */,
-				1D6D8E48173E7A9B004A2F0C /* Foundation.framework in Frameworks */,
 				1D6D8E4A173E7A9B004A2F0C /* CoreGraphics.framework in Frameworks */,
+				1D755D5117424ECA00D3C3E0 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +150,16 @@
 		1D6D8E44173E7A9B004A2F0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D755D6017424F4C00D3C3E0 /* SystemConfiguration.framework */,
+				1D755D5E17424F4300D3C3E0 /* StoreKit.framework */,
+				1D755D5C17424F3D00D3C3E0 /* Security.framework */,
+				1D755D5A17424F3300D3C3E0 /* QuartzCore.framework */,
+				1D755D5817424F2200D3C3E0 /* libz.1.1.3.dylib */,
+				1D755D5617424F1600D3C3E0 /* CoreLocation.framework */,
+				1D755D5417424EFF00D3C3E0 /* CFNetwork.framework */,
+				1D755D5217424EF600D3C3E0 /* AudioToolbox.framework */,
+				1D755D5017424ECA00D3C3E0 /* Parse.framework */,
+				1D6D8E7C173E837D004A2F0C /* MobileCoreServices.framework */,
 				1D6D8E45173E7A9B004A2F0C /* UIKit.framework */,
 				1D6D8E47173E7A9B004A2F0C /* Foundation.framework */,
 				1D6D8E49173E7A9B004A2F0C /* CoreGraphics.framework */,
@@ -98,16 +172,14 @@
 			children = (
 				1D6D8E54173E7A9B004A2F0C /* TarnerAppDelegate.h */,
 				1D6D8E55173E7A9B004A2F0C /* TarnerAppDelegate.m */,
-				1D6D8E5D173E7A9B004A2F0C /* TarnerFirstViewController.h */,
-				1D6D8E5E173E7A9B004A2F0C /* TarnerFirstViewController.m */,
-				1D6D8E60173E7A9B004A2F0C /* first.png */,
-				1D6D8E62173E7A9B004A2F0C /* first@2x.png */,
-				1D6D8E64173E7A9B004A2F0C /* TarnerSecondViewController.h */,
-				1D6D8E65173E7A9B004A2F0C /* TarnerSecondViewController.m */,
-				1D6D8E67173E7A9B004A2F0C /* second.png */,
-				1D6D8E69173E7A9B004A2F0C /* second@2x.png */,
-				1D6D8E6B173E7A9B004A2F0C /* TarnerFirstViewController.xib */,
-				1D6D8E6E173E7A9B004A2F0C /* TarnerSecondViewController.xib */,
+				1D755D4D17424D4900D3C3E0 /* TarnerUser.h */,
+				1D755D4E17424D4900D3C3E0 /* TarnerUser.m */,
+				1D755DA5174254F400D3C3E0 /* MBProgressHUD.h */,
+				1D755DA6174254F400D3C3E0 /* MBProgressHUD.m */,
+				1D6D8E7B173E7C17004A2F0C /* Post */,
+				1D6D8E8A173F4E21004A2F0C /* Timeline */,
+				1D6D8E8B173F4E45004A2F0C /* MyPage */,
+				1D6D8E87173F4C35004A2F0C /* Resources */,
 				1D6D8E4C173E7A9B004A2F0C /* Supporting Files */,
 			);
 			path = Tarner;
@@ -125,6 +197,61 @@
 				1D6D8E5B173E7A9B004A2F0C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6D8E7B173E7C17004A2F0C /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E76173E7C0F004A2F0C /* TarnerPostViewController.h */,
+				1D6D8E77173E7C0F004A2F0C /* TarnerPostViewController.m */,
+				1D6D8E78173E7C0F004A2F0C /* TarnerPostViewController.xib */,
+				1D6D8E7E173E8D7F004A2F0C /* TarnerModalPostViewController.h */,
+				1D6D8E7F173E8D7F004A2F0C /* TarnerModalPostViewController.m */,
+				1D6D8E80173E8D7F004A2F0C /* TarnerModalPostViewController.xib */,
+				1D755D62174252D000D3C3E0 /* TarnerPhotoUploader.h */,
+				1D755D63174252D000D3C3E0 /* TarnerPhotoUploader.m */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		1D6D8E87173F4C35004A2F0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D755DAB1742576600D3C3E0 /* Icon.png */,
+				1D755DAC1742576600D3C3E0 /* Icon@2x.png */,
+				1D755DA71742575600D3C3E0 /* 37x-Checkmark.png */,
+				1D755DA81742575600D3C3E0 /* 37x-Checkmark@2x.png */,
+				1D6D8E85173F4C26004A2F0C /* home.png */,
+				1D6D8E83173F3F68004A2F0C /* upload-photo.png */,
+				1D6D8E88173F4E02004A2F0C /* user.png */,
+				1D6D8E60173E7A9B004A2F0C /* first.png */,
+				1D6D8E62173E7A9B004A2F0C /* first@2x.png */,
+				1D6D8E67173E7A9B004A2F0C /* second.png */,
+				1D6D8E69173E7A9B004A2F0C /* second@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1D6D8E8A173F4E21004A2F0C /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E5D173E7A9B004A2F0C /* TarnerTimelineViewController.h */,
+				1D6D8E5E173E7A9B004A2F0C /* TarnerTimelineViewController.m */,
+				1D6D8E6B173E7A9B004A2F0C /* TarnerTimelineViewController.xib */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		1D6D8E8B173F4E45004A2F0C /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D8E64173E7A9B004A2F0C /* TarnerMyPageViewController.h */,
+				1D6D8E65173E7A9B004A2F0C /* TarnerMyPageViewController.m */,
+				1D6D8E6E173E7A9B004A2F0C /* TarnerMyPageViewController.xib */,
+				1D755DB017450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.h */,
+				1D755DB117450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.m */,
+			);
+			name = MyPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +314,17 @@
 				1D6D8E63173E7A9B004A2F0C /* first@2x.png in Resources */,
 				1D6D8E68173E7A9B004A2F0C /* second.png in Resources */,
 				1D6D8E6A173E7A9B004A2F0C /* second@2x.png in Resources */,
-				1D6D8E6D173E7A9B004A2F0C /* TarnerFirstViewController.xib in Resources */,
-				1D6D8E70173E7A9B004A2F0C /* TarnerSecondViewController.xib in Resources */,
+				1D6D8E6D173E7A9B004A2F0C /* TarnerTimelineViewController.xib in Resources */,
+				1D6D8E70173E7A9B004A2F0C /* TarnerMyPageViewController.xib in Resources */,
+				1D6D8E7A173E7C10004A2F0C /* TarnerPostViewController.xib in Resources */,
+				1D6D8E82173E8D7F004A2F0C /* TarnerModalPostViewController.xib in Resources */,
+				1D6D8E84173F3F69004A2F0C /* upload-photo.png in Resources */,
+				1D6D8E86173F4C27004A2F0C /* home.png in Resources */,
+				1D6D8E89173F4E02004A2F0C /* user.png in Resources */,
+				1D755DA91742575600D3C3E0 /* 37x-Checkmark.png in Resources */,
+				1D755DAA1742575600D3C3E0 /* 37x-Checkmark@2x.png in Resources */,
+				1D755DAD1742576600D3C3E0 /* Icon.png in Resources */,
+				1D755DAE1742576600D3C3E0 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,10 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D755DAF1742590C00D3C3E0 /* MBProgressHUD.m in Sources */,
 				1D6D8E52173E7A9B004A2F0C /* main.m in Sources */,
 				1D6D8E56173E7A9B004A2F0C /* TarnerAppDelegate.m in Sources */,
-				1D6D8E5F173E7A9B004A2F0C /* TarnerFirstViewController.m in Sources */,
-				1D6D8E66173E7A9B004A2F0C /* TarnerSecondViewController.m in Sources */,
+				1D6D8E5F173E7A9B004A2F0C /* TarnerTimelineViewController.m in Sources */,
+				1D6D8E66173E7A9B004A2F0C /* TarnerMyPageViewController.m in Sources */,
+				1D6D8E79173E7C10004A2F0C /* TarnerPostViewController.m in Sources */,
+				1D6D8E81173E8D7F004A2F0C /* TarnerModalPostViewController.m in Sources */,
+				1D755D4F17424D4900D3C3E0 /* TarnerUser.m in Sources */,
+				1D755D64174252D000D3C3E0 /* TarnerPhotoUploader.m in Sources */,
+				1D755DB217450E4A00D3C3E0 /* TarnerPhotoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,20 +359,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1D6D8E6B173E7A9B004A2F0C /* TarnerFirstViewController.xib */ = {
+		1D6D8E6B173E7A9B004A2F0C /* TarnerTimelineViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1D6D8E6C173E7A9B004A2F0C /* en */,
 			);
-			name = TarnerFirstViewController.xib;
+			name = TarnerTimelineViewController.xib;
 			sourceTree = "<group>";
 		};
-		1D6D8E6E173E7A9B004A2F0C /* TarnerSecondViewController.xib */ = {
+		1D6D8E6E173E7A9B004A2F0C /* TarnerMyPageViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1D6D8E6F173E7A9B004A2F0C /* en */,
 			);
-			name = TarnerSecondViewController.xib;
+			name = TarnerMyPageViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,9 +437,14 @@
 		1D6D8E74173E7A9B004A2F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tarner/Tarner-Prefix.pch";
 				INFOPLIST_FILE = "Tarner/Tarner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,9 +453,14 @@
 		1D6D8E75173E7A9B004A2F0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tarner/Tarner-Prefix.pch";
 				INFOPLIST_FILE = "Tarner/Tarner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -333,6 +485,7 @@
 				1D6D8E75173E7A9B004A2F0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

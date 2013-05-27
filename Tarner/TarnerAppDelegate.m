@@ -6,22 +6,34 @@
 //  Copyright (c) 2013年 Keisei SHIGETA. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+
 #import "TarnerAppDelegate.h"
-
-#import "TarnerFirstViewController.h"
-
-#import "TarnerSecondViewController.h"
+#import "TarnerTimelineViewController.h"
+#import "TarnerMyPageViewController.h"
+#import "TarnerPostViewController.h"
+#import "TarnerUser.h"
 
 @implementation TarnerAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // parse settings
+    [Parse setApplicationId:@"cLymJn8EaOnTYmOCUlZ4sd49Np5aflU3qtjANMU6"
+                  clientKey:@"HqnC0QAPE6U1BgRSDfRAEdfM5KUnzgZ8eIXqfxaa"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    // user auth
+    [[TarnerUser shared] loadOrCreateUser];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[TarnerFirstViewController alloc] initWithNibName:@"TarnerFirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[TarnerSecondViewController alloc] initWithNibName:@"TarnerSecondViewController" bundle:nil];
+    UIViewController *viewController1 = [[TarnerTimelineViewController alloc] initWithNibName:@"TarnerTimelineViewController" bundle:nil];
+    UIViewController *viewController2 = [[TarnerMyPageViewController alloc] initWithNibName:@"TarnerMyPageViewController" bundle:nil];
+    UIViewController *tarnerPostVC = [[TarnerPostViewController alloc] initWithNibName:@"TarnerPostViewController" bundle:nil];
+
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[viewController1, viewController2, tarnerPostVC];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
